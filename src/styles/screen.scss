@@ -12,3 +12,111 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+blockquote {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+  padding: 1em 0;
+  background-image: url('http://wallpapercave.com/wp/9CozxtU.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header img {
+  border-radius: 2em;
+  width: 50vw;
+  max-height: 320px;
+  max-width: 320px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li img {
+  border-radius: 0.25em;
+  width: 20vw;
+  max-height: 175px;
+  max-width: 175px;
+}
+
+section.Blogs {
+  background-color: hsla(245, 100%, 13%, 1);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.React {
+  background-color: white;
+  width: 90vw;
+  max-width: 750px;
+  border-radius: 1em 1em 0 0;
+  margin-top: 30px;
+}
+
+div h2, h4, p {
+  color: hsla(245, 100%, 13%, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+div.React img {
+  height: 80px;
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+div.Fizz {
+  background-color: white;
+  width: 90vw;
+  max-width: 750px;
+  border-radius: 1em 1em 0 0;
+  margin-top: 30px;
+}
+
+div.Fizz img {
+  height: 80px;
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+div .More {
+  background-color: hsl(200, 80%, 75%);
+  font-weight: bold;
+  position: static;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid hsla(245, 100%, 13%, 1);
+  font-family: "Roboto";
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+  color: white;
+}
