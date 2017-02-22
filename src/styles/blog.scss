@@ -1,0 +1,23 @@
+.blogs {
+  padding: 1em 0;
+  // background-image: url('https://static.pexels.com/photos/26559/pexels-photo-26559.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+
+  h1 {
+    font-size: 50px;
+    background-color: black;
+    margin-top: -16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  }
+
+  .tri {
+    margin-top: -48px;
+  }
+}
